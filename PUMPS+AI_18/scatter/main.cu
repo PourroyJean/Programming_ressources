@@ -1,33 +1,48 @@
 #include "helper.hpp"
 
-__global__ void s2g_gpu_gather_kernel(uint32_t *in, uint32_t *out, int len) {
+
+#define BLOCK_WIDTH 1024
+
+__global__ void s2g_gpu_scatter_kernel(uint32_t *in, uint32_t *out, int len) {
   //@@ INSERT KERNEL CODE HERE
-}
+  int inIdx = threadIdx.x + blockIdx.x * blockDim.x;
+  if (inIdx < len) {
+    uint32_t intermediate = outInvariant(in[inIdx]);
 
+    for (int outIdx = 0; outIdx < len; ++outIdx) {
+//      out[outIdx] += outDependent(intermediate, inIdx, outIdx);
+      atomicAdd( &(out[outIdx]), outDependent(intermediate, inIdx, outIdx));
 
-static void s2g_cpu_gather(uint32_t *in, uint32_t *out, int len) {
-  for (int outIdx = 0; outIdx < len; ++outIdx) {
-    int out_reg = 0;
-    for (int inIdx = 0; inIdx < len; ++inIdx) {
-      int intermediate = outInvariant(in[inIdx]);
-      out_reg += outDependent(intermediate, inIdx, outIdx);
     }
-    out[outIdx] += out_reg;
   }
 }
 
+static void s2g_cpu_scatter(uint32_t *in, uint32_t *out, int len) {
 
-static void s2g_gpu_gather(uint32_t *in, uint32_t *out, int len) {
-  //@@ INSERT CODE HERE
+//  for (int inIdx = 0; inIdx < len; ++inIdx) {
+//    uint32_t intermediate = outInvariant(in[inIdx]);
+//    for (int outIdx = 0; outIdx < len; ++outIdx) {
+//      out[outIdx] += outDependent(intermediate, inIdx, outIdx);
+//    }
+//  }
 }
 
+static void s2g_gpu_scatter(uint32_t *in, uint32_t *out, int len) {
+  //@@ INSERT CODE HERE
+  dim3 dimGrid((len-1/BLOCK_WIDTH)+1, 1, 1);
+//  dim3 dimGrid(ceil(len/BLOCK_WIDTH), 1, 1);
+  dim3 dimBlock(BLOCK_WIDTH, 1, 1);
+  s2g_gpu_scatter_kernel <<<dimGrid, dimBlock>>>  (in, out, len);
+
+
+}
 
 static int eval(int inputLength) {
   uint32_t *deviceInput = nullptr;
   uint32_t *deviceOutput= nullptr;
 
   const std::string conf_info =
-      std::string("gather[len:") + std::to_string(inputLength) + "]";
+      std::string("scatter[len:") + std::to_string(inputLength) + "]";
   INFO("Running "  << conf_info);
 
   auto hostInput = generate_input(inputLength);
@@ -39,23 +54,26 @@ static int eval(int inputLength) {
   THROW_IF_ERROR(cudaMalloc((void **)&deviceOutput, byteCount));
   timer_stop();
 
-
   timer_start("Copying input memory to the GPU.");
   THROW_IF_ERROR(cudaMemcpy(deviceInput, hostInput.data(), byteCount,
                      cudaMemcpyHostToDevice));
   THROW_IF_ERROR(cudaMemset(deviceOutput, 0, byteCount));
   timer_stop();
 
-  //////////////////////////////////////////
-  // GPU Gather Computation
-  //////////////////////////////////////////
-  timer_start("Performing GPU Gather computation");
-  s2g_gpu_gather(deviceInput, deviceOutput, inputLength);
-  timer_stop();
 
+  //////////////////////////////////////////
+  // GPU Scatter Computation
+  //////////////////////////////////////////
   std::vector<uint32_t> hostOutput(inputLength);
 
-  timer_start("Copying output memory to the CPU");
+
+  timer_start( "Performing GPU Scatter computation");
+  s2g_gpu_scatter(deviceInput, deviceOutput, inputLength);
+//  s2g_cpu_scatter(hostInput.data(), hostOutput.data(), inputLength);
+  timer_stop();
+
+
+  timer_start( "Copying output memory to the CPU");
   THROW_IF_ERROR(cudaMemcpy(hostOutput.data(), deviceOutput, byteCount,
                      cudaMemcpyDeviceToHost));
   timer_stop();
@@ -69,9 +87,7 @@ static int eval(int inputLength) {
   return 0;
 }
 
-
-
-TEST_CASE("Gather", "[gather]") {
+TEST_CASE("Scatter", "[scatter]") {
   SECTION("[inputSize:1024]") {
     eval(1024);
   }
