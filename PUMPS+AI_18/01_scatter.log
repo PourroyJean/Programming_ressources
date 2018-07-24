@@ -1,0 +1,6 @@
+ Scatter computation took 51.257694ms
+TIMER:: Copying output memory to the CPU took 0.029216ms
+TIMER:: Allocating GPU memory. took 0.297888ms
+TIMER:: Copying input memory to the GPU. took 3.483424ms
+TIMER:: Performing GPU Scatter computation took 51.257313ms
+TIMER:: Copying output memory to the CPU took 0.030496ms
