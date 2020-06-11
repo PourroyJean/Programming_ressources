@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2fd27c42-1d9b-4813-9a58-4105ba648a61" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/EffectiveC++/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EffectiveC++/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EffectiveC++/mainTest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EffectiveC++/test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2.txt" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EffectiveC++/test.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3195">
+              <caret line="213" column="24" selection-start-line="213" selection-start-column="4" selection-end-line="213" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="501">
+              <caret line="105" column="3" selection-start-line="105" selection-start-column="3" selection-end-line="105" selection-end-column="3" />
+              <caret line="104" column="3" selection-start-line="104" selection-start-column="3" selection-end-line="104" selection-end-column="3" />
+              <caret line="103" column="3" selection-start-line="103" selection-start-column="3" selection-end-line="103" selection-end-column="3" />
+              <caret line="102" column="3" selection-start-line="102" selection-start-column="3" selection-end-line="102" selection-end-column="3" />
+              <caret line="101" column="3" selection-start-line="101" selection-start-column="3" selection-end-line="101" selection-end-column="3" />
+              <caret line="100" column="3" selection-start-line="100" selection-start-column="3" selection-end-line="100" selection-end-column="3" />
+              <caret line="99" column="3" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="947">
+              <caret line="67" column="251" lean-forward="true" selection-start-line="67" selection-start-column="251" selection-end-line="67" selection-end-column="251" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>inputLength</find>
+      <find>hostInput</find>
+      <find>inIdx</find>
+      <find>atomic</find>
+      <find>ceil</find>
+      <find>gpu_normal</find>
+      <find>GPUNormal</find>
+      <find>gpu_normal_kernel</find>
+      <find>cpu_normal</find>
+      <find>gpu_cutoff</find>
+      <find>gpucutoff</find>
+      <find>CPUPREPRO</find>
+      <find>cpuprepro</find>
+      <find>GPUCutoff</find>
+      <find>cpu_preprocess</find>
+      <find>GPUBinnedGPUPreprocessing</find>
+      <find>GPUBinnedCPUPreprocessing</find>
+      <find>cutoff</find>
+      <find>gpu_cutoff_binned</find>
+      <find>gpu_cutoff_binned_kernel</find>
+      <find>?</find>
+      <find>num_bin</find>
+      <find>NUM_BINS</find>
+      <find>bin_ptrs</find>
+      <find>-</find>
+      <find>.</find>
+      <find>cutoff2</find>
+      <find>@@</find>
+      <find>TMP_FILE_monitoring</find>
+      <find>mFile_template_start</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>global_index_t1</replace>
+      <replace>global_index_t2</replace>
+      <replace>MASK_WIDTH</replace>
+      <replace>base_add</replace>
+      <replace>base_add_pixel_o</replace>
+      <replace>base_add_pixel_i</replace>
+      <replace>,</replace>
+      <replace>;</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/WebGPU training/00_common.c" />
+        <option value="$PROJECT_DIR$/WebGPU training/01 - Lab Tour with Device Query.c" />
+        <option value="$PROJECT_DIR$/WebGPU training/00_common.h" />
+        <option value="$PROJECT_DIR$/WebGPU training/Lab Vector Addition.c" />
+        <option value="$PROJECT_DIR$/WebGPU training/02 - Lab Vector Addition.c" />
+        <option value="$PROJECT_DIR$/WebGPU training/03 - Lab Basic Matrix Multiplication .c" />
+        <option value="$PROJECT_DIR$/WebGPU training/04 - Lab tiled.c" />
+        <option value="$PROJECT_DIR$/WebGPU training/05 - Lab Histogram.c" />
+        <option value="$PROJECT_DIR$/WebGPU training/06 - Lab Scan.c" />
+        <option value="$PROJECT_DIR$/WebGPU training/06 - Lab Histogram.c" />
+        <option value="$PROJECT_DIR$/WebGPU training/07 - Lab Convolution (stencil).c" />
+        <option value="$PROJECT_DIR$/PUMPS+AI_18/labs/gather/main.cu" />
+        <option value="$PROJECT_DIR$/PUMPS+AI_18/labs/01_gather.GPU" />
+        <option value="$PROJECT_DIR$/PUMPS+AI_18/labs/scatter/main.cu" />
+        <option value="$PROJECT_DIR$/PUMPS+AI_18/labs/binning/helper.hpp" />
+        <option value="$PROJECT_DIR$/PUMPS+AI_18/labs/binning/rai_build.yml" />
+        <option value="$PROJECT_DIR$/PUMPS+AI_18/labs/binning/log_GPUvsCutOFF" />
+        <option value="$PROJECT_DIR$/PUMPS+AI_18/labs/binning/main.cu" />
+        <option value="$PROJECT_DIR$/PUMPS+AI_18/basic_conv/main.cu" />
+        <option value="$PROJECT_DIR$/test2_dml" />
+        <option value="$PROJECT_DIR$/test1_orign" />
+        <option value="$PROJECT_DIR$/EffectiveC++/test.cpp" />
+        <option value="$PROJECT_DIR$/test2.txt" />
+        <option value="$PROJECT_DIR$/test1.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" />
+        <option value="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="180" />
+    <option name="y" value="112" />
+    <option name="width" value="1080" />
+    <option name="height" value="676" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Programming_ressources" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Programming_ressources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PUMPS+AI_18" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18383405" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2686747" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" order="10" visible="true" weight="0.20361446" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22103004" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="CMake" order="7" visible="true" weight="0.37243047" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.83071345" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WebGPU training/01 - Lab Tour with Device Query.c" />
+    <entry file="file://$PROJECT_DIR$/WebGPU training/00_common.c" />
+    <entry file="file://$PROJECT_DIR$/WebGPU training/00_common.h" />
+    <entry file="file://$PROJECT_DIR$/WebGPU training/02 - Lab Vector Addition.c" />
+    <entry file="file://$PROJECT_DIR$/WebGPU training/05 - Lab Scan.c" />
+    <entry file="file://$PROJECT_DIR$/WebGPU training/06 - Lab Histogram.c" />
+    <entry file="file://$PROJECT_DIR$/WebGPU training/03 - Lab Basic Matrix Multiplication .c" />
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/.agignore" />
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/.editorconfig" />
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/.clang-format" />
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/device_query/main.cu" />
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/scatter/common/clara.hpp" />
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/WebGPU training/06 - Lab Histogram.c" />
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/01_gather.GPU">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/01_gather.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/WebGPU training/07 - Lab Convolution (stencil).c" />
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/WebGPU training/02 - Lab Vector Addition.c" />
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/scatter/helper.hpp" />
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/scatter/rai_build.yml" />
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/binning/rai_build.yml" />
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/binning/log_GPUvsCutOFF" />
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/gather/main.cu" />
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/binning/helper.hpp" />
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/scatter/main.cu" />
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/binning/main.cu" />
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/.travis.yml" />
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/2018-07-16-07-58-08.png" />
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/basic_conv/shape.hpp" />
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/basic_conv/rai_build.yml" />
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/basic_conv/main.cu" />
+    <entry file="file://$PROJECT_DIR$/WebGPU training/04 - Lab Tiled Matrix Multiplication.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebGPU training/07 - Lab Convolution (stencil).c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2_dml" />
+    <entry file="file://$PROJECT_DIR$/test1_orign" />
+    <entry file="file://$PROJECT_DIR$/PUMPS+AI_18/README.md">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EffectiveC++/test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3195">
+          <caret line="213" column="24" selection-start-line="213" selection-start-column="4" selection-end-line="213" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="947">
+          <caret line="67" column="251" lean-forward="true" selection-start-line="67" selection-start-column="251" selection-end-line="67" selection-end-column="251" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="105" column="3" selection-start-line="105" selection-start-column="3" selection-end-line="105" selection-end-column="3" />
+          <caret line="104" column="3" selection-start-line="104" selection-start-column="3" selection-end-line="104" selection-end-column="3" />
+          <caret line="103" column="3" selection-start-line="103" selection-start-column="3" selection-end-line="103" selection-end-column="3" />
+          <caret line="102" column="3" selection-start-line="102" selection-start-column="3" selection-end-line="102" selection-end-column="3" />
+          <caret line="101" column="3" selection-start-line="101" selection-start-column="3" selection-end-line="101" selection-end-column="3" />
+          <caret line="100" column="3" selection-start-line="100" selection-start-column="3" selection-end-line="100" selection-end-column="3" />
+          <caret line="99" column="3" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

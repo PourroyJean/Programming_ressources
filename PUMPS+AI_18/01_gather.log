@@ -1,0 +1,80 @@
+TIMER:: Allocating GPU memory. took 0.001248ms
+TIMER:: Copying input memory to the GPU. took 4.443136ms
+TIMER:: Performing GPU Gather computation took 4.802912ms
+TIMER:: Copying output memory to the CPU took 0.032480ms
+TIMER:: Allocating GPU memory. took 0.241472ms
+TIMER:: Copying input memory to the GPU. took 1.511712ms
+TIMER:: Performing GPU Gather computation took 4.800832ms
+TIMER:: Copying output memory to the CPU took 0.016800ms
+TIMER:: Allocating GPU memory. took 0.315168ms
+TIMER:: Copying input memory to the GPU. took 3.279840ms
+TIMER:: Performing GPU Gather computation took 5.218880ms
+TIMER:: Copying output memory to the CPU took 0.032352ms
+TIMER:: Allocating GPU memory. took 0.237664ms
+TIMER:: Copying input memory to the GPU. took 0.841024ms
+TIMER:: Performing GPU Gather computation took 5.236032ms
+TIMER:: Copying output memory to the CPU took 0.031104ms
+TIMER:: Allocating GPU memory. took 0.299872ms
+TIMER:: Copying input memory to the GPU. took 3.257728ms
+TIMER:: Performing GPU Gather computation took 5.231232ms
+TIMER:: Copying output memory to the CPU took 0.047040ms
+TIMER:: Allocating GPU memory. took 0.292320ms
+TIMER:: Copying input memory to the GPU. took 1.077696ms
+TIMER:: Performing GPU Gather computation took 5.230016ms
+TIMER:: Copying output memory to the CPU took 0.014816ms
+TIMER:: Allocating GPU memory. took 0.312384ms
+TIMER:: Copying input memory to the GPU. took 3.847872ms
+TIMER:: Performing GPU Gather computation took 5.214368ms
+TIMER:: Copying output memory to the CPU took 0.013280ms
+TIMER:: Allocating GPU memory. took 0.401088ms
+TIMER:: Copying input memory to the GPU. took 0.687520ms
+TIMER:: Performing GPU Gather computation took 5.240608ms
+TIMER:: Copying output memory to the CPU took 0.017024ms
+TIMER:: Allocating GPU memory. took 0.305504ms
+TIMER:: Copying input memory to the GPU. took 3.115360ms
+TIMER:: Performing GPU Gather computation took 12.508224ms
+TIMER:: Copying output memory to the CPU took 0.022400ms
+TIMER:: Allocating GPU memory. took 0.449504ms
+TIMER:: Copying input memory to the GPU. took 3.795584ms
+TIMER:: Performing GPU Gather computation took 12.461152ms
+TIMER:: Copying output memory to the CPU took 0.027328ms
+TIMER:: Allocating GPU memory. took 0.762528ms
+TIMER:: Copying input memory to the GPU. took 3.719360ms
+TIMER:: Performing GPU Gather computation took 12.826528ms
+TIMER:: Copying output memory to the CPU took 0.026368ms
+TIMER:: Allocating GPU memory. took 0.316320ms
+TIMER:: Copying input memory to the GPU. took 1.758304ms
+TIMER:: Performing GPU Gather computation took 12.782784ms
+TIMER:: Copying output memory to the CPU took 0.022592ms
+TIMER:: Allocating GPU memory. took 0.314176ms
+TIMER:: Copying input memory to the GPU. took 2.916224ms
+TIMER:: Performing GPU Gather computation took 12.129664ms
+TIMER:: Copying output memory to the CPU took 0.023616ms
+TIMER:: Allocating GPU memory. took 0.428352ms
+TIMER:: Copying input memory to the GPU. took 2.985248ms
+TIMER:: Performing GPU Gather computation took 12.132960ms
+TIMER:: Copying output memory to the CPU took 0.019040ms
+TIMER:: Allocating GPU memory. took 0.265824ms
+TIMER:: Copying input memory to the GPU. took 2.054976ms
+TIMER:: Performing GPU Gather computation took 12.140224ms
+TIMER:: Copying output memory to the CPU took 0.027328ms
+TIMER:: Allocating GPU memory. took 0.534624ms
+TIMER:: Copying input memory to the GPU. took 3.965056ms
+TIMER:: Performing GPU Gather computation took 12.091648ms
+TIMER:: Copying output memory to the CPU took 0.018816ms
+TIMER:: Allocating GPU memory. took 0.266368ms
+TIMER:: Copying input memory to the GPU. took 1.185888ms
+TIMER:: Performing GPU Gather computation took 12.111872ms
+TIMER:: Copying output memory to the CPU took 0.020672ms
+TIMER:: Allocating GPU memory. took 0.294720ms
+TIMER:: Copying input memory to the GPU. took 1.500768ms
+TIMER:: Performing GPU Gather computation took 12.099232ms
+TIMER:: Copying output memory to the CPU took 0.018016ms
+TIMER:: Allocating GPU memory. took 0.295168ms
+TIMER:: Copying input memory to the GPU. took 0.982816ms
+TIMER:: Performing GPU Gather computation took 24.246847ms
+TIMER:: Copying output memory to the CPU took 0.027328ms
+TIMER:: Allocating GPU memory. took 0.424032ms
+TIMER:: Copying input memory to the GPU. took 3.352224ms
+TIMER:: Performing GPU Gather computation took 24.246559ms
+TIMER:: Copying output memory to the CPU took 0.030304ms
