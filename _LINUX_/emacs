@@ -12,6 +12,9 @@
 (defun track-mouse (e)) 
 (setq mouse-sel-mode t)
 
+;; Open buffer list in current window (even when split https://stackoverflow.com/questions/1231188/emacs-list-buffers-behavior)
+(global-set-key "\C-x\C-b" 'buffer-menu)
+
 
 
 ;;Adding local directory for mods
